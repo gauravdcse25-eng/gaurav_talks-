@@ -1,0 +1,396 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSE Engineer Resume</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        .resume-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-section {
+            border-bottom: 2px solid #eaeaea;
+        }
+
+        .header-section h1 {
+            color: #0d6efd;
+            font-weight: bold;
+        }
+
+        .section-title {
+            border-left: 5px solid #0d6efd;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .skill-badge {
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .project-card {
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Bootstrap Container -->
+    <div class="container my-5">
+
+        <!-- Resume Card -->
+        <div class="resume-container p-4 p-md-5">
+
+            <!-- Header -->
+            <header class="header-section text-center pb-4">
+
+                <h1 class="display-5">Gaurav Dafare</h1>
+
+                <h4 class="text-secondary">Computer Science Engineer</h4>
+
+                <div class="row mt-3">
+
+                    <div class="col-md-6">
+                        <p>
+                            <i class="bi bi-envelope-fill text-primary"></i>
+                            gauravdafare13@gmail.com
+                        </p>
+
+                        <p>
+                            <i class="bi bi-telephone-fill text-primary"></i>
+                            +91-8999830998
+                        </p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <p>
+                            <i class="bi bi-linkedin text-primary"></i>
+                            linkedin.com/in/i.gaurav.z
+                        </p>
+
+                        <p>
+                            <i class="bi bi-github text-primary"></i>
+                            github.com/i.gaurav.z
+                        </p>
+                    </div>
+
+                </div>
+
+                <p>
+                    <i class="bi bi-geo-alt-fill text-danger"></i>
+                    Nagpur, Maharashtra, India
+                </p>
+
+            </header>
+
+            <!-- Professional Summary -->
+            <section class="mt-4">
+
+                <h2 class="section-title">Professional Summary</h2>
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <p class="mb-0">
+                            Motivated Computer Science Engineer with strong knowledge
+                            of programming, data structures, and software development.
+                            Passionate about building efficient and scalable applications.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Technical Skills -->
+            <section class="mt-4">
+
+                <h2 class="section-title">Technical Skills</h2>
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <span class="badge bg-primary skill-badge">C</span>
+                        <span class="badge bg-success skill-badge">C++</span>
+                        <span class="badge bg-warning text-dark skill-badge">Java</span>
+                        <span class="badge bg-danger skill-badge">Python</span>
+                        <span class="badge bg-info text-dark skill-badge">HTML</span>
+                        <span class="badge bg-dark skill-badge">CSS</span>
+                        <span class="badge bg-secondary skill-badge">Bootstrap</span>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Education -->
+            <section class="mt-4">
+
+                <h2 class="section-title">Education</h2>
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <h5>Bachelor of Engineering in Computer Science</h5>
+
+                        <p class="mb-1">
+                            S.B Jain College of Engineering and Research, Nagpur
+                        </p>
+
+                        <p class="text-muted">2025 – 2026</p>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Projects -->
+            <section class="mt-4">
+
+                <h2 class="section-title">Projects</h2>
+
+                <!-- Bootstrap Grid System -->
+                <div class="row g-4">
+
+                    <div class="col-md-6">
+
+                        <div class="card project-card shadow-sm h-100">
+                            <div class="card-body">
+
+                                <h5 class="card-title">
+                                    <i class="bi bi-laptop-fill text-primary"></i>
+                                    Student Record Management System
+                                </h5>
+
+                                <p class="card-text">
+                                    Console-based system using C with file handling
+                                    (add, delete, search, display).
+                                </p>
+
+                                <button class="btn btn-primary">
+                                    View Project
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="card project-card shadow-sm h-100">
+                            <div class="card-body">
+
+                                <h5 class="card-title">
+                                    <i class="bi bi-bank2 text-success"></i>
+                                    Bank Management System
+                                </h5>
+
+                                <p class="card-text">
+                                    C++ OOP-based system with account creation,
+                                    deposit, withdrawal, and balance check.
+                                </p>
+
+                                <button class="btn btn-success">
+                                    View Project
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Internship -->
+            <section class="mt-4">
+
+                <h2 class="section-title">Internship / Training</h2>
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <h5>Computer Science Intern</h5>
+
+                        <p class="mb-1">Code Tantra Tech Solutions</p>
+
+                        <p class="text-muted">
+                            February 2025 – March 2025
+                        </p>
+
+                        <ul>
+                            <li>Worked on coding tasks in C and Python</li>
+                            <li>Learned software development basics</li>
+                            <li>Exposure to real-world development</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Certifications -->
+            <section class="mt-4">
+
+                <h2 class="section-title">Certifications</h2>
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <ul class="mb-0">
+                            <li>C Programming Certification</li>
+                            <li>Python for Beginners</li>
+                            <li>Introduction to C++</li>
+                            <li>Basic Java Programming</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Achievements -->
+            <section class="mt-4">
+
+                <h2 class="section-title">Achievements</h2>
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <ul class="mb-0">
+                            <li>Solved 100+ problems on HackerRank</li>
+                            <li>Participated in technical workshops</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Languages -->
+            <section class="mt-4">
+
+                <h2 class="section-title">Languages</h2>
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <span class="badge bg-dark me-2">English</span>
+                        <span class="badge bg-secondary">Hindi</span>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Contact Form -->
+            <section class="mt-4">
+
+                <h2 class="section-title">Contact Form</h2>
+
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+
+                        <form>
+
+                            <div class="row">
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">
+                                        Full Name
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Enter your name"
+                                    />
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">
+                                        Email
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        placeholder="Enter your email"
+                                    />
+                                </div>
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    rows="4"
+                                    placeholder="Write your message"
+                                ></textarea>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">
+                                Submit
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Footer -->
+            <footer class="text-center mt-5 pt-3">
+                <p>© 2026 Gaurav Dafare | All Rights Reserved</p>
+            </footer>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
